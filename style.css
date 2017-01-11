@@ -1,0 +1,21 @@
+#buildBox {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  margin: 10px;
+  display: inline-block;
+}
+
+.removeBox {
+  width: 20px;
+  height: 20px;
+  background-color: gold;
+}
