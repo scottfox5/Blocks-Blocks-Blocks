@@ -10,4 +10,4 @@ When each box is clicked it turns black.
 
 When the box is initially created, it will be one of six randomly generated colors.
 
-Each box has its own button with an x on it. When clicked, the box will be removed.
+Each box has its own button. When clicked, the box will be removed.
