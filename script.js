@@ -27,7 +27,7 @@ $(function(){
 //function to assign random color to box
   function randomColor (){
     console.log("Running function for random color.")
-    var x = Math.floor((Math.random() * 6) + 1);
+    var x = Math.floor((Math.random() * 7) + 1);
     console.log('Random number is ', x);
     switch(x) {
       case 1:
@@ -40,13 +40,17 @@ $(function(){
         $('.box').css('background-color', 'yellow');
         break;
       case 4:
-        $('.box').css('background-color', 'blue');
+        $('.box').css('background-color', 'green');
         break;
       case 5:
-        $('.box').css('background-color', 'indigo');
+        $('.box').css('background-color', 'blue');
         break;
       case 6:
+        $('.box').css('background-color', 'indigo');
+        break;
+      case 7:
         $('.box').css('background-color', 'violet');
+        break;
     }
   }
 });

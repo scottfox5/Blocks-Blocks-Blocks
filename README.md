@@ -8,6 +8,6 @@ Those boxes are displayed horizontally.
 
 When each box is clicked it turns black.
 
-When the box is initially created, it will be one of six randomly generated colors.
+When the box is initially created, it will a randomly generated color.
 
 Each box has its own button with an x on it. When clicked, the box will be removed.
