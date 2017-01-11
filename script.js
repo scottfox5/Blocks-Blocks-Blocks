@@ -1,4 +1,3 @@
-
 $(function(){
   console.log("JS works.");
 
@@ -31,25 +30,25 @@ $(function(){
     console.log('Random number is ', x);
     switch(x) {
       case 1:
-        $('.box').css('background-color', 'red');
+        $('.box').last().css('background-color', 'red');
         break;
       case 2:
-        $('.box').css('background-color', 'orange');
+        $('.box').last().css('background-color', 'orange');
         break;
       case 3:
-        $('.box').css('background-color', 'yellow');
+        $('.box').last().css('background-color', 'yellow');
         break;
       case 4:
-        $('.box').css('background-color', 'green');
+        $('.box').last().css('background-color', 'green');
         break;
       case 5:
-        $('.box').css('background-color', 'blue');
+        $('.box').last().css('background-color', 'blue');
         break;
       case 6:
-        $('.box').css('background-color', 'indigo');
+        $('.box').last().css('background-color', 'indigo');
         break;
       case 7:
-        $('.box').css('background-color', 'violet');
+        $('.box').last().css('background-color', 'violet');
         break;
     }
   }
