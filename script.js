@@ -23,33 +23,39 @@ $(function(){
     $(this).parent().remove();
   });
 
-//function to assign random color to box
-  function randomColor (){
-    console.log("Running function for random color.")
-    var x = Math.floor((Math.random() * 7) + 1);
-    console.log('Random number is ', x);
-    switch(x) {
-      case 1:
-        $('.box').last().css('background-color', 'red');
-        break;
-      case 2:
-        $('.box').last().css('background-color', 'orange');
-        break;
-      case 3:
-        $('.box').last().css('background-color', 'yellow');
-        break;
-      case 4:
-        $('.box').last().css('background-color', 'green');
-        break;
-      case 5:
-        $('.box').last().css('background-color', 'blue');
-        break;
-      case 6:
-        $('.box').last().css('background-color', 'indigo');
-        break;
-      case 7:
-        $('.box').last().css('background-color', 'violet');
-        break;
-    }
+  function randomColor () {
+    var x = Math.floor(Math.random() * 255);
+    var y = Math.floor(Math.random() * 255);
+    var z = Math.floor(Math.random() * 255);
+    $('.box').last().css('background-color', 'rgb('+x+', '+y+', '+z+')');
   }
+//function to assign random color to box
+  // function randomColor (){
+  //   console.log("Running function for random color.")
+  //   var x = Math.floor((Math.random() * 7) + 1);
+  //   console.log('Random number is ', x);
+  //   switch(x) {
+  //     case 1:
+  //       $('.box').last().css('background-color', 'red');
+  //       break;
+  //     case 2:
+  //       $('.box').last().css('background-color', 'orange');
+  //       break;
+  //     case 3:
+  //       $('.box').last().css('background-color', 'yellow');
+  //       break;
+  //     case 4:
+  //       $('.box').last().css('background-color', 'green');
+  //       break;
+  //     case 5:
+  //       $('.box').last().css('background-color', 'blue');
+  //       break;
+  //     case 6:
+  //       $('.box').last().css('background-color', 'indigo');
+  //       break;
+  //     case 7:
+  //       $('.box').last().css('background-color', 'violet');
+  //       break;
+  //   }
+  // }
 });
